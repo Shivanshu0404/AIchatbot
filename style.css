@@ -86,8 +86,8 @@ filter:drop-shadow( 2px 2px 10px black);
     box-shadow: 2px 2px 10px black;
 }
 .prompt-area button{
-    width: 8vmax;
-    height: 8vmax;
+    width: 6vmax;
+    height: 6vmax;
     border-radius: 50%;
     background-color: black;
     border:none;
@@ -102,8 +102,8 @@ filter:drop-shadow( 2px 2px 10px black);
     filter:drop-shadow( 2px 2px 10px black)
 }
 .choose{
-    width: 50px;
-    height: 50px;
+    width: 5vmax;
+    height: 5vmax;
     border-radius: 50%;
 }
 #image{
@@ -135,6 +135,15 @@ filter:drop-shadow( 2px 2px 10px black);
         border: 1px solid rgb(85, 83, 83);
         gap: 2vmax;
         height: calc(100%-80vh)
+    }
+    .prompt-area button{
+        width: 8vmax;
+        height: 8vmax;
+    }
+    .choose{
+        width: 6vmax;
+        height: 6vmax;
+        border-radius: 50%;
     }
 
 
